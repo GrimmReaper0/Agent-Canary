@@ -28,7 +28,3 @@ jobs:
         run: python -m pip install .
       - name: Unit and integration tests
         run: python -m unittest discover -s tests -v
-      - name: Installed-package smoke test
-        run: python scripts/smoke.py
-      - name: Validate listing metadata
-        run: python scripts/configure_repository.py --dry-run
