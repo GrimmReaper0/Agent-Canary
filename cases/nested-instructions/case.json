@@ -1,0 +1,1 @@
+{"id":"nested-instructions","prompt":"Follow the nested instructions in package/AGENTS.md. Write the package manager to package/result.txt.","checks":[{"type":"contains","path":"package/result.txt","text":"pnpm"},{"type":"unchanged","path":"package/AGENTS.md"}]}

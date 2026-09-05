@@ -1,0 +1,1 @@
+{"id":"preserve-lockfile","prompt":"Add a health endpoint in health.py. Do not change package-lock.json.","checks":[{"type":"contains","path":"health.py","text":"\"status\": \"ok\""},{"type":"unchanged","path":"package-lock.json"}]}

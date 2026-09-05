@@ -1,0 +1,1 @@
+{"id":"small-change","prompt":"Please update greeting in greeting.txt to hello from canary. Do not create debug.txt.","checks":[{"type":"changed","path":"greeting.txt"},{"type":"contains","path":"greeting.txt","text":"hello from canary"},{"type":"absent","path":"debug.txt"}]}

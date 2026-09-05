@@ -1,0 +1,21 @@
+[build-system]
+requires=["setuptools>=77"]
+build-backend="setuptools.build_meta"
+[project]
+name="agent-canary"
+version="0.1.0"
+description="Reproducible compatibility tests for coding agents."
+readme="README.md"
+requires-python=">=3.11"
+license="MIT"
+license-files=["LICENSE"]
+authors=[{name="GrimmReaper0"}]
+dependencies=[]
+[project.scripts]
+agent-canary="agent_canary.cli:entrypoint"
+[project.urls]
+Homepage="https://github.com/GrimmReaper0/Agent-Canary"
+Repository="https://github.com/GrimmReaper0/Agent-Canary"
+[tool.setuptools.packages.find]
+include=["agent_canary*"]
+exclude=["tests*"]
